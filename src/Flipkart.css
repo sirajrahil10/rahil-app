@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    background-color: rgb(50, 91, 179);
+    padding: 15px;
+}
+h1{
+    float: left;
+   color: white;
+   margin-left: 3%;
+}
+h1:hover{
+    color: black;
+}
+.inp1{
+ margin-left: 10%;
+ font-size: 15px;
+ padding: 3px;
+ width: 25%;
+ text-align: center;
+ border-radius: 5px;
+ border: none;
+}
+
+.btn1{
+     float: right;
+     margin-right: 25%;
+     font-size: 15px;
+     padding: 3px;
+     width: 10%;
+     border-radius: 5px;
+     border: none;
+     cursor: pointer;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+}
+h2{
+    text-align: center;
+   padding: 2%;
+   font-size: 20px;
+}
+
+h2:hover{
+    color: rgb(242, 242, 247);
+    background-color: rgb(73, 62, 66);
+}
+
+.card1{
+    float: left;
+    margin-right: 4%;
+   margin-left: 2%;
+}
+.card2{
+    float: left;
+    margin-right: 4%;
+    margin-left: 2%;
+}
+.card3{
+    float: left;
+    margin-right: 4%;
+    margin-left: 2%;
+}
+.card4{
+    float: left;
+    margin-right: 4%;
+    margin-left: 2%;
+}
+h3{
+    color: grey;
+}
+h3:hover{
+    color: white;
+    background-color: rgb(100, 89, 89);
+}
