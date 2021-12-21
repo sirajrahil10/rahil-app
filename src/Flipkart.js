@@ -94,16 +94,16 @@ const Flipkart = () => {
             <Card style={{ width: "45%" }} className='card1'>
                 <Card.Img variant="top" src={image11} />
                 <Card.Body>
-                    <Card.Title>Top 20 Cameras Starting from Just 2,999 INR.</Card.Title>
+                    <Card.Title>Top 20 Cameras. </Card.Title>
                     <Card.Text>
-                        DSLR,ACTION AND MANY MORE...
+                    Starting from Just 2,999 INR.
                     </Card.Text>
                 </Card.Body>
             </Card>
             <Card style={{ width: '45%' }}>
                 <Card.Img variant="top" src={image12} />
                 <Card.Body>
-                    <Card.Title>Onikuma X7 Pro Gaming Headphone</Card.Title>
+                    <Card.Title>Onikuma X7 Pro Headphone</Card.Title>
                     <Card.Text>
                         Starting from 1,999 INR.
                     </Card.Text>
@@ -136,7 +136,7 @@ const Flipkart = () => {
                 <Card.Body>
                     <Card.Title>Brand New Deals</Card.Title>
                     <Card.Text>
-                   Crazy Deals On Levis,Van Huesen,U.S Polo And Many More...   
+                   Crazy Deals On Van Huesen,U.S Polo.   
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -165,7 +165,7 @@ const Flipkart = () => {
                 <Card.Body>
                     <Card.Title>Brand New Deals</Card.Title>
                     <Card.Text>
-                    Crazy Deals On Levis,Louis Vuitton,Van Huesen,U.S Polo And Many More...
+                    Crazy Deals On Levis,Louis Vuitton. 
                     </Card.Text>
                 </Card.Body>
             </Card>
