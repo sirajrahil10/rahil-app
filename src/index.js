@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './Flipkart.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './Card1.css'
 
 ReactDOM.render(
     <App />
