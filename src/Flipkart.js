@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel, Card } from 'react-bootstrap'
+import {Nav,Container,NavDropdown,Form,FormControl,Button, Navbar,Carousel, Card } from 'react-bootstrap'
 import image1 from "./image1.jpg"
 import image8 from "./image8.jpg"
 import image9 from "./image9.jpg"
@@ -16,13 +16,47 @@ import image20 from "./image20.jpg"
 const Flipkart = () => {
     return (
         <div>
-            <nav>
+        <Navbar bg="info" expand="lg">
+  <Container fluid>
+    <Navbar.Brand href="#Flipkart" >Flipkart</Navbar.Brand>
+    <Navbar.Toggle aria-controls="navbarScroll" />
+    <Navbar.Collapse id="navbarScroll">
+      <Nav
+        className="me-auto my-2 my-lg-0"
+        style={{ maxHeight: '100px' }}
+        navbarScroll
+      >
+        <Nav.Link href="#Home">Home</Nav.Link>
+       
+        <NavDropdown title="More" id="navbarScrollingDropdown">
+          <NavDropdown.Item href="#Advertise">Advertise.</NavDropdown.Item>
+          <NavDropdown.Item href="#Sell">Sell On Flipkart.</NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item href="#Notification">
+            Notification.
+          </NavDropdown.Item>
+        </NavDropdown>
+       
+      </Nav>
+      <Form className="d-flex">
+        <FormControl
+          placeholder="Search For Products,Brand And More.."
+          className="me-2"
+          aria-label="Search"
+        />
+        <Button variant="primary">Search</Button>
+      </Form>
+      
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
+            {/* <nav>
                 <div>
                     <h1>Flipkart</h1>
                     <input className='inp1' placeholder='Search for products,brand and more...'></input>
                     <button className='btn1' type='text'>Login</button>
                 </div>
-            </nav>
+            </nav> */}
             <Carousel>
                 <Carousel.Item>
                     <img
