@@ -1,9 +1,9 @@
 import React from 'react'
-import Card1 from './Card1'
+import Flipkart from './Flipkart'
 const App = () => {
   return (
     <div>
-     <Card1/>
+     <Flipkart/>
     </div>
   )
 }
